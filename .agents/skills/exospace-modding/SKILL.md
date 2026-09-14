@@ -79,6 +79,14 @@ Use a stable lowercase ID and a clear description:
 
 Use the in-game modder tools for editing parts and particle effects where possible.
 
+
+
+## Music Replacement
+
+The built-in soundtrack is stored as loose `.ogg` files in `game_data/music/`. The soundtrack groups are `s_*.ogg` (combat), `c_*.ogg` (intense/combat), `e_*.ogg` (exploration/ambient), and `m_epic_victory.ogg` (victory).
+
+Music replacement is experimental: the normal mod format does not currently document music overrides. Test a mod-local `music/` directory with replacement files using the same names before relying on it. Do not remove built-in tracks outright; missing files may cause playback errors. If the override is unsupported, only a local backup-based replacement of `game_data/music/` is practical, and Steam updates may overwrite it. Use music with redistribution rights.
+
 ## Custom Sprite Color Channels
 
 eXoSpace custom part and weapon textures use channel-coded color data rather than
@@ -187,6 +195,11 @@ Supported through the documented system:
 - Factions and arenas through their in-game editors
 
 Do not claim support for shader replacement, executable patches, or unsupported systems such as perks unless the current official documentation confirms it. The developer has stated that perk modding was not supported in the referenced discussion.
+
+
+## Experimental and Unconfirmed
+
+Music replacement or removal is not confirmed by the documented modding system. See [Music Replacement](#music-replacement).
 
 ## Safety and Compatibility
 

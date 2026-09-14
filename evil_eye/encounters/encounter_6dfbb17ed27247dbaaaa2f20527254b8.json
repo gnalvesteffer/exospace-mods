@@ -1,0 +1,125 @@
+{
+  "id": "encounter_6dfbb17ed27247dbaaaa2f20527254b8",
+  "name": "The Squid",
+  "source": "Download",
+  "max_per_sector": 10,
+  "weight": 100,
+  "kind": "Boss",
+  "for_faction": "c8bbd275359248f883b3a1afec23f258",
+  "for_any_faction_including_evil": false,
+  "has_attacker": false,
+  "require_evil_attacker": false,
+  "conflict": false,
+  "return_fire": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "third_party_faction": "",
+  "min_reputation": "Loathing",
+  "max_reputation": "Loving",
+  "min_danger": 0,
+  "max_danger": 18446744073709551615,
+  "min_distance_from_start": 0,
+  "min_distance_from_end": 0,
+  "assignments": [
+    "1fac539327d742a89332654a303549ba"
+  ],
+  "all_assignments": false,
+  "area_radius": 20000.0,
+  "hyperspace_node": null,
+  "scenes": [
+    {
+      "spawns": [
+        {
+          "chance": 1.0,
+          "side": "Side1",
+          "position": [
+            -4.371139e-8,
+            -1.0,
+            1.0,
+            -4.371139e-8,
+            0.0,
+            0.0
+          ],
+          "jump_in": false,
+          "from_all_sides": false,
+          "from_random_side": false,
+          "from_outside_border": false,
+          "radius": 0.0,
+          "random_direction": false,
+          "design_source": "Custom",
+          "designs": [
+            "design_9b604f43909547299937bb66ffd3a67a"
+          ],
+          "disabled": false,
+          "force_spawn": true,
+          "fleet_size": "SingleShip",
+          "constant_budget": false,
+          "override_drop_multiplier": null,
+          "override_always_drop": null,
+          "override_drops_metal": null,
+          "override_drops_antimatter": null,
+          "override_drops_exotics": null,
+          "override_drops_tritium": null,
+          "override_drops_tech": null,
+          "override_drops_repair": null,
+          "override_drops_overpower": null,
+          "override_drops_superthrust": null,
+          "patrol_waypoints": [],
+          "hireable": false
+        }
+      ],
+      "asteroids": [],
+      "asteroid_resources": "None"
+    }
+  ],
+  "in_relaxed_difficulty": true,
+  "in_challenging_difficulty": true,
+  "in_hardcore_difficulty": true,
+  "in_insane_difficulty": true,
+  "rotate_world_randomly": true,
+  "handlers": [
+    {
+      "event": "Starting",
+      "conditions": [],
+      "actions": [
+        [
+          1.0,
+          [
+            {
+              "Attack": [
+                "Side1",
+                "Player"
+              ]
+            },
+            {
+              "SeeAll": [
+                "Side1",
+                "Player"
+              ]
+            }
+          ]
+        ]
+      ],
+      "max_occurrences": 18446744073709551615
+    },
+    {
+      "event": {
+        "BossDestroyed": "Side1"
+      },
+      "conditions": [],
+      "actions": [
+        [
+          1.0,
+          [
+            "Victory"
+          ]
+        ]
+      ],
+      "max_occurrences": 18446744073709551615
+    }
+  ]
+}

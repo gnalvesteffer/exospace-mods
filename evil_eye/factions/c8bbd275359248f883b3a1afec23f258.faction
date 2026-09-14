@@ -1,0 +1,63 @@
+{
+  "id": "c8bbd275359248f883b3a1afec23f258",
+  "workshop_file_id": null,
+  "name": "Squids In Space",
+  "description": "Strange.",
+  "source": "Download",
+  "color": {
+    "r": 0.0,
+    "g": 0.9587505,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "palette": {
+    "colors": [
+      {
+        "r": 131,
+        "g": 183,
+        "b": 198,
+        "a": 255
+      },
+      {
+        "r": 174,
+        "g": 249,
+        "b": 255,
+        "a": 255
+      },
+      {
+        "r": 83,
+        "g": 120,
+        "b": 232,
+        "a": 255
+      }
+    ]
+  },
+  "starting_reputation": 0,
+  "fixed_reputation": false,
+  "evil": false,
+  "doctrine": {
+    "capital": 60,
+    "swarm": 20,
+    "wolfpack": 20,
+    "random": 0
+  },
+  "glow_color": {
+    "r": 0.0,
+    "g": 0.9587505,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "icon": "faction_icons/abstract-034.png",
+  "playable": false,
+  "playble_sequence": 0,
+  "needs_achievement": "",
+  "unlocked_at_start": false,
+  "starting_ship": null,
+  "unlock_tree": {
+    "nodes": {}
+  },
+  "crew": {
+    "roles": []
+  },
+  "conflict_with": []
+}

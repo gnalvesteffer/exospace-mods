@@ -1,0 +1,30 @@
+{
+  "id": "1fac539327d742a89332654a303549ba",
+  "source": "Download",
+  "boss_faction": "c8bbd275359248f883b3a1afec23f258",
+  "wild_waste": false,
+  "wild_waste_boss_factions": [],
+  "wild_waste_include_player": false,
+  "wild_waste_include_downloaded": false,
+  "wild_waste_independent_space": 0.0,
+  "seed": 0,
+  "mugshot": "targets/squid.png",
+  "mugshot_locked": "targets/squid_locked.png",
+  "starting_x_coins": 1000,
+  "sector_size": 4,
+  "rank_required": 1,
+  "start_danger_multiplier": 3.0,
+  "neutral_zone_around_start": 0,
+  "factions_on_map": [
+    [
+      1.0,
+      "c8bbd275359248f883b3a1afec23f258"
+    ]
+  ],
+  "randomized_faction_count": 0,
+  "randomized_faction_area": 0.0,
+  "randomized_factions_on_map": [],
+  "start_faction": "82c596efabcc4098ba988bacdfc2ef01",
+  "neutral_faction": "b3de5072a1c5431dafbd9b1ade1f1869",
+  "pirate_faction": "6bd7b472e32941ad804a8dd2a572a9cb"
+}

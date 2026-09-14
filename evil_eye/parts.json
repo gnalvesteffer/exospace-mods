@@ -1,0 +1,170 @@
+{
+  "parts": [
+    {
+      "name": "weapon-evil_eye",
+      "rarity": "Boss",
+      "description": "Evil Eye",
+      "details": "If it sees you, you are dead.",
+      "hidden": false,
+      "unlockable": false,
+      "decorative": false,
+      "health_per_mass": 2.0,
+      "ram_damage_multiplier": 1.0,
+      "cost_factor": 1.0,
+      "antimatter_cost_factor": 1.0,
+      "exotics_cost_factor": 1.0,
+      "shape": {
+        "points": [
+          [
+            43.080997,
+            -36.296097
+          ],
+          [
+            0.2970848,
+            -50.243732
+          ],
+          [
+            -42.514046,
+            -36.379856
+          ],
+          [
+            -69.0,
+            0.0
+          ],
+          [
+            -42.585304,
+            36.431633
+          ],
+          [
+            0.19860458,
+            50.37928
+          ],
+          [
+            43.00974,
+            36.515415
+          ],
+          [
+            69.495705,
+            0.1355629
+          ]
+        ]
+      },
+      "cursor_offset": [
+        0.0,
+        0.0
+      ],
+      "texture": "parts/weapon-evil-eye",
+      "explosion_effect": "explosion_small",
+      "explosion_sound": "sounds/explosion_1",
+      "core": false,
+      "starbase_core": false,
+      "previous_part_type": null,
+      "next_part_type": null,
+      "connectors": [
+        [
+          0,
+          0.5
+        ],
+        [
+          7,
+          0.49999967
+        ],
+        [
+          6,
+          0.5
+        ],
+        [
+          5,
+          0.5
+        ],
+        [
+          4,
+          0.5
+        ],
+        [
+          3,
+          0.5
+        ],
+        [
+          2,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "scan_range": 0.0,
+      "thruster": null,
+      "weapon": {
+        "muzzle_texture": "parts/weapon-evil-eye-turret",
+        "turret_texture": "parts/weapon-evil-eye-muzzle",
+        "projectile_texture": "projectiles/beam-1",
+        "alternate_projectile_texture": "projectiles/beam-1-alternate",
+        "fire_sound": "sounds/duck",
+        "projectile_impact_effect": "impact_beam",
+        "impact_sound": null,
+        "projectile_trail": 50.0,
+        "projectile_fade_out": false,
+        "beam": true,
+        "can_autofire": false,
+        "velocity": 500.0,
+        "size": 8.0,
+        "fixed_damage": 100000.0,
+        "explosive_range": 0.0,
+        "piercing": false,
+        "range": 12500.0,
+        "lifetime": 0.75,
+        "energy_per_shot": 1000.0,
+        "cooldown": 0.001,
+        "burst": 0,
+        "burst_interval": 0.0,
+        "salvo_burst": false,
+        "powered": false,
+        "mine": false,
+        "guidance": 0.0,
+        "guidance_delay": 0.0,
+        "hittable": false,
+        "hitpoints": 1.0,
+        "accuracy": 1.0,
+        "kickback_factor": 0.25,
+        "muzzle_flash_effect": null,
+        "angle": 0.0,
+        "rotation": 3.1415927,
+        "rotation_speed": 2.1,
+        "turret_position": [
+          0.0,
+          0.0
+        ],
+        "turret_sprite_offset": [
+          5.0,
+          0.0
+        ],
+        "muzzle_position": [
+          5.0,
+          0.0
+        ],
+        "muzzle_sprite_offset": [
+          0.0,
+          0.0
+        ],
+        "muzzle_kickback": 0.0,
+        "spin_up_time": 0.5,
+        "charge_duration": 0.0,
+        "emp_range": 0.0,
+        "emp_strength": 0.0
+      },
+      "shield": null,
+      "generator": null,
+      "battery": null,
+      "joint": null,
+      "hangar": null,
+      "joint_connector": false,
+      "default_action": "FirePrimary",
+      "exploder": false,
+      "explosion_damage": 0.0,
+      "explosion_range": 0.0,
+      "emp_resistance": 0.0
+    }
+  ]
+}
