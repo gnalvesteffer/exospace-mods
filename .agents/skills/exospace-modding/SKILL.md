@@ -79,6 +79,22 @@ Use a stable lowercase ID and a clear description:
 
 Use the in-game modder tools for editing parts and particle effects where possible.
 
+## Custom Sprite Color Channels
+
+eXoSpace custom part and weapon textures use channel-coded color data rather than
+ordinary display colors:
+
+- **Red channel:** the main sprite mask, multiplied by the part's faction color.
+- **Blue channel:** emissive/glow mask, multiplied by the configured glow color.
+- **Green channel:** currently unused by the documented shader.
+- **Alpha:** sprite transparency.
+
+Keep connector-edge pixels opaque where the part meets adjacent blocks. Avoid
+placing transparent padding over connector edges, since it makes the part appear
+visually disconnected even when the connector coordinates are correct. For custom
+sprites, author the mask channels deliberately; a normal full-color PNG may appear
+black or excessively faction-tinted in-game.
+
 ## Override Built-in Weapons
 
 To change an existing weapon, copy its complete definition from the matching object in `game_data/parts.json` into the mod's `parts.json`. The official guide supports overriding built-in parts this way.
