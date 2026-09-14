@@ -1,0 +1,758 @@
+{
+  "id": "d3657d85caf244b49a7ebdf04f281194",
+  "workshop_file_id": null,
+  "name": "Voidbringer Cartel",
+  "description": "The Voidbringer Cartel operates with the cold precision of a well-oiled death machine. Stoic, terse, and ruthlessly effective, these mercenaries are hired for the worst jobs in the worst sectors.",
+  "source": "BuiltIn",
+  "color": {
+    "r": 0.8987342,
+    "g": 0.43037975,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "starting_reputation": -5,
+  "fixed_reputation": false,
+  "evil": false,
+  "doctrine": {
+    "capital": 10,
+    "swarm": 10,
+    "wolfpack": 80,
+    "random": 0
+  },
+  "glow_color": {
+    "r": 0.8666667,
+    "g": 0.25,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "icon": "faction_icons/entangled-typhoon.png",
+  "playable": false,
+  "needs_achievement": "",
+  "unlocked_at_start": false,
+  "starting_ship": null,
+  "unlock_tree": {
+    "nodes": {
+      "armor-light-triangle-1": {
+        "id": "armor-light-triangle-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "armor-light-triangle-6",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-generator-trapezoid-3": {
+        "id": "energy-generator-trapezoid-3",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-generator-trapezoid-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-generator-trapezoid-2": {
+        "id": "energy-generator-trapezoid-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "energy-generator-triangle-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-rect-3": {
+        "id": "armor-light-rect-3",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-square-huge": {
+        "id": "thruster-square-huge",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "thruster-rect-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy_generator_huge": {
+        "id": "energy_generator_huge",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-generator-trapezoid-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-3": {
+        "id": "armor-light-triangle-3",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-railgun-2": {
+        "id": "weapon-railgun-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "weapon-railgun-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-4": {
+        "id": "armor-heavy-triangle-4",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-4",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-2": {
+        "id": "armor-heavy-triangle-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "thruster-trapezoid-2": {
+        "id": "thruster-trapezoid-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "thruster-trapezoid-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-7": {
+        "id": "armor-light-triangle-7",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-4",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-1": {
+        "id": "armor-heavy-triangle-1",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "thruster-trapezoid-1": {
+        "id": "thruster-trapezoid-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "thruster-trapezoid-4",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-battery-trapezoid-2": {
+        "id": "energy-battery-trapezoid-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "energy-battery-triangle-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-trapezoid-4": {
+        "id": "thruster-trapezoid-4",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "thruster-trapezoid-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-square-2": {
+        "id": "armor-heavy-square-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "core-square": {
+        "id": "core-square",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": null,
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          0.0
+        ]
+      },
+      "energy-battery-rect-4": {
+        "id": "energy-battery-rect-4",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-battery-trapezoid-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-rect-1": {
+        "id": "armor-light-rect-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-rect-4": {
+        "id": "armor-light-rect-4",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-railgun-1": {
+        "id": "weapon-railgun-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-minelayer-1": {
+        "id": "weapon-minelayer-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          0.0
+        ]
+      },
+      "weapon-torpedo-launcher-2": {
+        "id": "weapon-torpedo-launcher-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-5",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-rect-1": {
+        "id": "armor-heavy-rect-1",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-laser-blaster-2": {
+        "id": "weapon-laser-blaster-2",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "weapon-laser-blaster-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-6": {
+        "id": "armor-light-triangle-6",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          300.0,
+          -150.0
+        ]
+      },
+      "core-1-drone": {
+        "id": "core-1-drone",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          0.0
+        ]
+      },
+      "armor-heavy-triangle-6": {
+        "id": "armor-heavy-triangle-6",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-6",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "deco-light-1": {
+        "id": "deco-light-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "container-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-square-1": {
+        "id": "thruster-square-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "thruster-trapezoid-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-laser-blaster-0": {
+        "id": "weapon-laser-blaster-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          600.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-rect-3": {
+        "id": "armor-heavy-rect-3",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-4": {
+        "id": "armor-light-triangle-4",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-square-2": {
+        "id": "armor-light-square-2",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-rect-2": {
+        "id": "armor-light-rect-2",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-launcher-1": {
+        "id": "weapon-torpedo-launcher-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          300.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-7": {
+        "id": "armor-heavy-triangle-7",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-7",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "energy-battery-trapezoid-3": {
+        "id": "energy-battery-trapezoid-3",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-battery-trapezoid-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-rect-4": {
+        "id": "armor-heavy-rect-4",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-4",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-laseer-blaster-defense-1": {
+        "id": "weapon-laseer-blaster-defense-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-generator-triangle-0": {
+        "id": "energy-generator-triangle-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -750.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-rect-2": {
+        "id": "armor-heavy-rect-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-3": {
+        "id": "armor-heavy-triangle-3",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-5": {
+        "id": "weapon-torpedo-5",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-launcher-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-rect-2": {
+        "id": "thruster-rect-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "thruster-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-trapezoid-3": {
+        "id": "thruster-trapezoid-3",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -600.0,
+          -150.0
+        ]
+      },
+      "armor-light-square-1": {
+        "id": "armor-light-square-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "armor-light-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "weapon-railgun-3": {
+        "id": "weapon-railgun-3",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "weapon-railgun-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-battery-triangle-0": {
+        "id": "energy-battery-triangle-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -900.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-square-1": {
+        "id": "armor-heavy-square-1",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "container-square-1": {
+        "id": "container-square-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-2": {
+        "id": "armor-light-triangle-2",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "armor-light-triangle-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "xorberax-chaff-flare-defense-1": {
+        "id": "xorberax-chaff-flare-defense-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 0.5,
+        "parent": "core-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          300.0,
+          300.0
+        ]
+      }
+    }
+  },
+  "crew": {
+    "roles": []
+  },
+  "conflict_with": [
+    "01b8ff1af65847d1b74a8af5a12d130b",
+    "02f8cc6315a84957b8e65c15d04190cd",
+    "1465f99fba0741859d310d32929d047c",
+    "16a398d275934864bfb7d4f5dd0c4653",
+    "176ac18b3af54273859dfeefed41a7b7",
+    "1a4dd21dd8cf4068b01a233867facda0",
+    "474d42555aa247abb0d994fd884be38c",
+    "579d08042d5944b7bf0d238be0852a54",
+    "6bd7b472e32941ad804a8dd2a572a9cb",
+    "82c596efabcc4098ba988bacdfc2ef01",
+    "9a6e011cfdac423da74c53b7900922e7",
+    "acdea5badd4f4bab95c32d2c28b0a605",
+    "b4928d4d6f1d407cb997113e262c2f3f",
+    "d77b2a2fcea14df9b8bcab20a676a482"
+  ]
+}

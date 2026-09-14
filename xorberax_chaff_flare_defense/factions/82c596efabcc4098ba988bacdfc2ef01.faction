@@ -1,0 +1,1817 @@
+{
+  "id": "82c596efabcc4098ba988bacdfc2ef01",
+  "workshop_file_id": null,
+  "name": "Corespace Pact",
+  "description": "The Corespace Pact maintains the galactic core as a serene, secure domain. It is impeccably regulated by the Central Authority, an immensely powerful and benevolent singular intelligence.\n\nIt's borders are tightly controlled and lined with an impenetrable wall of bastions.",
+  "source": "BuiltIn",
+  "color": {
+    "r": 0.43037975,
+    "g": 1.0,
+    "b": 0.7159019,
+    "a": 1.0
+  },
+  "starting_reputation": 25,
+  "fixed_reputation": false,
+  "evil": false,
+  "doctrine": {
+    "capital": 60,
+    "swarm": 20,
+    "wolfpack": 20,
+    "random": 0
+  },
+  "glow_color": {
+    "r": 0.25,
+    "g": 1.0,
+    "b": 0.6259375,
+    "a": 1.0
+  },
+  "icon": "faction_icons/book-aura.png",
+  "playable": true,
+  "playble_sequence": 100,
+  "needs_achievement": "",
+  "unlocked_at_start": true,
+  "starting_ship": {
+    "name": "design_ae1ad7b514de4c84ae4e898379556840",
+    "workshop_file_id": null,
+    "faction": "82c596efabcc4098ba988bacdfc2ef01",
+    "parts": [
+      {
+        "name": "core-1-drone",
+        "group": 0,
+        "color": {
+          "r": 0.44889075,
+          "g": 0.44889075,
+          "b": 0.44889075,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.45052296,
+          "g": 0.413662,
+          "b": 0.83141965,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          -2.8212995e-07,
+          0.99999994,
+          -0.99999994,
+          -2.8212995e-07,
+          0.0,
+          0.0
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "energy-generator-triangle-0",
+        "group": 0,
+        "color": {
+          "r": 0.43448842,
+          "g": 0.43448842,
+          "b": 0.43448842,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.40986392,
+          "g": 0.37570858,
+          "b": 0.7590072,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          -0.70710695,
+          0.7071066,
+          -0.7071066,
+          -0.70710695,
+          -11.25,
+          -2.861023e-06
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "energy-generator-triangle-0",
+        "group": 0,
+        "color": {
+          "r": 0.47753596,
+          "g": 0.47753596,
+          "b": 0.47753596,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.46458027,
+          "g": 0.42586523,
+          "b": 0.86033386,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          0.7071064,
+          0.7071072,
+          -0.7071072,
+          0.7071064,
+          -33.749992,
+          -22.500011
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "energy-generator-triangle-0",
+        "group": 0,
+        "color": {
+          "r": 0.47732037,
+          "g": 0.47732037,
+          "b": 0.47732037,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.43149677,
+          "g": 0.39553872,
+          "b": 0.7990681,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.707107,
+          -0.70710653,
+          0.70710653,
+          0.707107,
+          -33.750008,
+          22.499989
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "energy-generator-triangle-0",
+        "group": 0,
+        "color": {
+          "r": 0.66314274,
+          "g": 0.89050597,
+          "b": 0.4395689,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.400762,
+          "g": 0.36505055,
+          "b": 0.738037,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.70710623,
+          0.70710737,
+          -0.70710737,
+          0.70710623,
+          -56.250008,
+          -2.670288e-05
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.43903962,
+          "g": 0.43903962,
+          "b": 0.43903962,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.42384338,
+          "g": 0.39060077,
+          "b": 0.7853569,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.70710695,
+          -0.7071066,
+          0.7071066,
+          0.70710695,
+          -24.430191,
+          -22.50001
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.69170594,
+          "g": 0.9288622,
+          "b": 0.4585022,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.36346647,
+          "g": 0.33107838,
+          "b": 0.6693541,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          -1.0,
+          -1.0410971e-06,
+          1.0410971e-06,
+          -1.0,
+          -67.50001,
+          -3.8415223e-05
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.47088745,
+          "g": 0.47088745,
+          "b": 0.47088745,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.37991378,
+          "g": 0.35011664,
+          "b": 0.7039579,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          0.70710653,
+          0.707107,
+          -0.707107,
+          0.70710653,
+          -56.249985,
+          -54.319824
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.43727395,
+          "g": 0.43727395,
+          "b": 0.43727395,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.36936304,
+          "g": 0.3403934,
+          "b": 0.68440795,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          0.70710695,
+          0.7071066,
+          -0.7071066,
+          0.70710695,
+          -24.430204,
+          22.499987
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.46535277,
+          "g": 0.46535277,
+          "b": 0.46535277,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.43656537,
+          "g": 0.40232494,
+          "b": 0.8089299,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.7071065,
+          -0.70710695,
+          0.70710695,
+          0.7071065,
+          -56.249996,
+          54.3198
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.6898129,
+          "g": 0.92546326,
+          "b": 0.45844707,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.39655605,
+          "g": 0.36468995,
+          "b": 0.7329206,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          0.7071067,
+          0.7071067,
+          -0.7071067,
+          0.7071067,
+          58.180202,
+          -54.319794
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.58203995,
+          "g": 0.7808735,
+          "b": 0.3868216,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.40128943,
+          "g": 0.36904296,
+          "b": 0.7416689,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.7071067,
+          -0.7071068,
+          0.7071068,
+          0.7071067,
+          58.180187,
+          54.319824
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.62749153,
+          "g": 0.84185195,
+          "b": 0.41702852,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.46138394,
+          "g": 0.42430845,
+          "b": 0.8527364,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          0.7071069,
+          -0.70710665,
+          0.70710665,
+          0.7071069,
+          90.00001,
+          -22.499985
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-triangle-1",
+        "group": 0,
+        "color": {
+          "r": 0.65452117,
+          "g": 0.8781153,
+          "b": 0.4349923,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.45976633,
+          "g": 0.42282084,
+          "b": 0.8497467,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          0.7071067,
+          0.7071067,
+          -0.7071067,
+          0.7071067,
+          89.99999,
+          22.500015
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.47767922,
+          "g": 0.47767922,
+          "b": 0.47767922,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.46510577,
+          "g": 0.42705166,
+          "b": 0.85833156,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          1.0,
+          2.3841858e-07,
+          -2.3841858e-07,
+          1.0,
+          67.5,
+          9.790196e-06
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.45584923,
+          "g": 0.45584923,
+          "b": 0.45584923,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.47942024,
+          "g": 0.43723124,
+          "b": 0.88596857,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          1.0,
+          2.3841858e-07,
+          -2.3841858e-07,
+          1.0,
+          90.0,
+          1.5154614e-05
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": false,
+        "joint_settings": null
+      },
+      {
+        "name": "weapon-scrapper-1",
+        "group": 0,
+        "color": {
+          "r": 0.6448565,
+          "g": 0.86915445,
+          "b": 0.42856923,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.47245553,
+          "g": 0.4361128,
+          "b": 0.8762637,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          1.0,
+          2.3841858e-07,
+          -2.3841858e-07,
+          1.0,
+          -56.24998,
+          -76.819824
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "armor-light-square-1",
+        "group": 0,
+        "color": {
+          "r": 0.4319341,
+          "g": 0.4319341,
+          "b": 0.4319341,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.49091074,
+          "g": 0.4507453,
+          "b": 0.9059534,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          3.1391647e-07,
+          -1.0,
+          1.0,
+          3.1391647e-07,
+          33.75,
+          1.0237083e-05
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "weapon-scrapper-1",
+        "group": 0,
+        "color": {
+          "r": 0.68710977,
+          "g": 0.9261044,
+          "b": 0.45665056,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.41400188,
+          "g": 0.3821556,
+          "b": 0.7678497,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          1.0,
+          2.3841858e-07,
+          -2.3841858e-07,
+          1.0,
+          -56.25,
+          76.8198
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-3",
+        "group": 0,
+        "color": {
+          "r": 0.66232234,
+          "g": 0.8926953,
+          "b": 0.44017693,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.50193983,
+          "g": 0.46332905,
+          "b": 0.9309482,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          5.5233505e-07,
+          -1.0,
+          1.0,
+          5.5233505e-07,
+          -22.49998,
+          -76.81981
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-3",
+        "group": 0,
+        "color": {
+          "r": 0.6573543,
+          "g": 0.88599926,
+          "b": 0.4368752,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.46667564,
+          "g": 0.43077752,
+          "b": 0.8655437,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          -4.0133926e-07,
+          1.0,
+          -1.0,
+          -4.0133926e-07,
+          -22.5,
+          76.81982
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-3",
+        "group": 0,
+        "color": {
+          "r": 0.60006016,
+          "g": 0.8087767,
+          "b": 0.39879772,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.49643794,
+          "g": 0.4582504,
+          "b": 0.9207439,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          1.1924881e-08,
+          -1.0,
+          1.0,
+          1.1924881e-08,
+          -89.999985,
+          -76.81983
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-3",
+        "group": 0,
+        "color": {
+          "r": 0.58906525,
+          "g": 0.7939575,
+          "b": 0.39149055,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.48421234,
+          "g": 0.44696525,
+          "b": 0.898069,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          -4.0133926e-07,
+          1.0,
+          -1.0,
+          -4.0133926e-07,
+          -90.0,
+          76.819786
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.6534115,
+          "g": 0.88068503,
+          "b": 0.43425485,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.44069004,
+          "g": 0.40679082,
+          "b": 0.81734824,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          -1.0,
+          -8.742278e-08,
+          8.742278e-08,
+          -1.0,
+          -112.499985,
+          -76.81983
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.6739503,
+          "g": 0.9083678,
+          "b": 0.44790486,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.4339188,
+          "g": 0.40054044,
+          "b": 0.8047896,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          -1.0,
+          -5.6425995e-07,
+          5.6425995e-07,
+          -1.0,
+          -112.5,
+          76.81977
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.64805204,
+          "g": 0.86943626,
+          "b": 0.43069297,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.4877467,
+          "g": 0.44855276,
+          "b": 0.9014604,
+          "a": 1.0
+        },
+        "mirrored": true,
+        "position": [
+          1.0,
+          7.1525574e-07,
+          -7.1525574e-07,
+          1.0,
+          1.9073486e-05,
+          -76.81979
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      },
+      {
+        "name": "thruster-rect-1",
+        "group": 0,
+        "color": {
+          "r": 0.62888294,
+          "g": 0.8437187,
+          "b": 0.41795325,
+          "a": 1.0
+        },
+        "top_color": {
+          "r": 0.48316878,
+          "g": 0.4443427,
+          "b": 0.8929995,
+          "a": 1.0
+        },
+        "mirrored": false,
+        "position": [
+          1.0,
+          4.7683716e-07,
+          -4.7683716e-07,
+          1.0,
+          0.0,
+          76.81983
+        ],
+        "destroyed": false,
+        "action": "FirePrimary",
+        "action_mode": "Normal",
+        "autofire_mode": "None",
+        "fire_in_arc": true,
+        "joint_settings": null
+      }
+    ],
+    "ai_movement": "CloseIn",
+    "broadside_mode": "LeastDamaged",
+    "ai_attack": [
+      "WhenInRange",
+      "WhenInRange",
+      "WhenInRange",
+      "WhenInRange"
+    ],
+    "group_damage_received_multiplier": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "boss_phases": [],
+    "boss_phase": 0,
+    "boss_phase_timer": 0.0,
+    "ai_attack_range": 0.0,
+    "ai_explore": true,
+    "ai_base_rotate": false,
+    "auto_repair": true,
+    "human_name": "Deepspace Explorer",
+    "designer": "Aureus Regia Shipyards",
+    "details": "A light combat drone used for patrol and skirmish duties, equipped with dual laser blasters and a prisma bolter for versatile engagement options.",
+    "classification_override": "Fighter",
+    "spawn_set": "",
+    "minimum_danger_level": 0.0,
+    "asteroid": false,
+    "meteor": false,
+    "always_in_sandbox": true,
+    "hidden": false,
+    "drop_multiplier": 1.0,
+    "always_drop": false,
+    "drops_metal": true,
+    "drops_antimatter": true,
+    "drops_exotics": true,
+    "drops_tritium": true,
+    "drops_tech": true,
+    "timestamp": "2026-04-02T12:37:07.045618100Z"
+  },
+  "unlock_tree": {
+    "nodes": {
+      "armor-light-triangle-1": {
+        "id": "armor-light-triangle-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-rect-1": {
+        "id": "armor-heavy-rect-1",
+        "extra_ids": [
+          "armor-heavy-rect-2",
+          "armor-heavy-rect-3",
+          "armor-heavy-rect-4"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 0.75,
+        "parent": "armor-light-rect-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "deco-antenna-1": {
+        "id": "deco-antenna-1",
+        "extra_ids": [
+          "deco-antenna-2",
+          "deco-antenna-3",
+          "deco-light-1"
+        ],
+        "rarity": "Common",
+        "cost_factor": 0.5,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -450.0,
+          -152.0
+        ]
+      },
+      "armor-light-rect-2": {
+        "id": "armor-light-rect-2",
+        "extra_ids": [
+          "armor-light-rect-3",
+          "armor-light-rect-4"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-square-1": {
+        "id": "armor-light-square-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "core-square": {
+        "id": "core-square",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "thruster-rect-3": {
+        "id": "thruster-rect-3",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "thruster-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-5": {
+        "id": "weapon-torpedo-5",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-launcher-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-railgun-1": {
+        "id": "weapon-railgun-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "weapon-missile-2": {
+        "id": "weapon-missile-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "weapon-missile-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-battery-rect-4": {
+        "id": "energy-battery-rect-4",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-power-unit-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "thruster-square-1": {
+        "id": "thruster-square-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 1.0,
+        "parent": "thruster-rect-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "joint_piston_rect_1": {
+        "id": "joint_piston_rect_1",
+        "extra_ids": [
+          "joint_piston_trapezoid_1"
+        ],
+        "rarity": "Common",
+        "cost_factor": 0.5,
+        "parent": "deco-antenna-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "weapon-pulse-cannon-1": {
+        "id": "weapon-pulse-cannon-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-laser-blaster-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-5": {
+        "id": "armor-light-triangle-5",
+        "extra_ids": [
+          "armor-light-triangle-6",
+          "armor-light-triangle-7"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          150.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-launcher-2": {
+        "id": "weapon-torpedo-launcher-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-5",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-power-unit-square": {
+        "id": "energy-power-unit-square",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "energy-powerunit-rect-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "joint_rotator180_rect_1": {
+        "id": "joint_rotator180_rect_1",
+        "extra_ids": [
+          "joint_rotator90_rect_1",
+          "joint_rotator_triangle_1"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 0.25,
+        "parent": "joint_piston_rect_1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-laser-blaster-2": {
+        "id": "weapon-laser-blaster-2",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-scrapper-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -300.0,
+          -150.0
+        ]
+      },
+      "thruster-rect-1": {
+        "id": "thruster-rect-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -300.0,
+          -150.0
+        ]
+      },
+      "energy-powerunit-rect-0": {
+        "id": "energy-powerunit-rect-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "energy-generator-triangle-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-5": {
+        "id": "armor-heavy-triangle-5",
+        "extra_ids": [
+          "armor-heavy-triangle-6",
+          "armor-heavy-triangle-7"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-5",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-scrapper-1": {
+        "id": "weapon-scrapper-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -750.0,
+          -150.0
+        ]
+      },
+      "armor-light-adapter-1": {
+        "id": "armor-light-adapter-1",
+        "extra_ids": [
+          "armor-light-adapter-2",
+          "armor-light-adapter-3"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "strut-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "shield-small-square": {
+        "id": "shield-small-square",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          750.0,
+          -150.0
+        ]
+      },
+      "armor-light-triangle-2": {
+        "id": "armor-light-triangle-2",
+        "extra_ids": [
+          "armor-light-triangle-3",
+          "armor-light-triangle-4"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-cap-1": {
+        "id": "armor-light-cap-1",
+        "extra_ids": [
+          "armor-light-cap-2",
+          "armor-light-cap-3"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          450.0,
+          -150.0
+        ]
+      },
+      "energy-power-unit-rect": {
+        "id": "energy-power-unit-rect",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-power-unit-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-adapter1": {
+        "id": "armor-heavy-adapter1",
+        "extra_ids": [
+          "armor-heavy-adapter-2",
+          "armor-heavy-adapter-3"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-adapter-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-light-rect-1": {
+        "id": "armor-light-rect-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-neutronium-rect-4": {
+        "id": "armor-neutronium-rect-4",
+        "extra_ids": [],
+        "rarity": "Unique",
+        "cost_factor": 1.0,
+        "parent": "armor-heavy-rect-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-cap-1": {
+        "id": "armor-heavy-cap-1",
+        "extra_ids": [
+          "armor-heavy-cap-2",
+          "armor-heavy-cap-3"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-cap-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-square-huge": {
+        "id": "thruster-square-huge",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "thruster-rect-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "c0ntainer-octagon-1": {
+        "id": "c0ntainer-octagon-1",
+        "extra_ids": [
+          "container-octagon-2",
+          "container-square-1",
+          "container-passenger-1"
+        ],
+        "rarity": "Common",
+        "cost_factor": 0.5,
+        "parent": "deco-antenna-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "armor-heavy-triangle-1": {
+        "id": "armor-heavy-triangle-1",
+        "extra_ids": [
+          "armor-heavy-triangle-2",
+          "armor-heavy-triangle-3",
+          "armor-heavy-triangle-4"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "armor-light-triangle-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-launcher-nuke": {
+        "id": "weapon-torpedo-launcher-nuke",
+        "extra_ids": [],
+        "rarity": "Unique",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-launcher-3",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "joint_rotatoraim_rect_1": {
+        "id": "joint_rotatoraim_rect_1",
+        "extra_ids": [
+          "joint_rotator_rect_1",
+          "joint_rotator_motor_rect_1"
+        ],
+        "rarity": "Rare",
+        "cost_factor": 0.5,
+        "parent": "joint_rotator180_rect_1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "core-1-drone": {
+        "id": "core-1-drone",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": null,
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          0.0
+        ]
+      },
+      "armor-neutronium-cap-3": {
+        "id": "armor-neutronium-cap-3",
+        "extra_ids": [],
+        "rarity": "Unique",
+        "cost_factor": 1.0,
+        "parent": "armor-heavy-cap-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "shield-hexagon-1": {
+        "id": "shield-hexagon-1",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "shield-small-square",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-railgun-2": {
+        "id": "weapon-railgun-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "weapon-railgun-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-battery-triangle-0": {
+        "id": "energy-battery-triangle-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          600.0,
+          -150.0
+        ]
+      },
+      "weapon-missile-1": {
+        "id": "weapon-missile-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-scrapper-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-launcher-1": {
+        "id": "weapon-torpedo-launcher-1",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "weapon-scrapper-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "strut-rect-1": {
+        "id": "strut-rect-1",
+        "extra_ids": [
+          "strut-square-1",
+          "strut-triangle-1"
+        ],
+        "rarity": "Common",
+        "cost_factor": 1.0,
+        "parent": "armor-light-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          -150.0,
+          -150.0
+        ]
+      },
+      "weapon-torpedo-launcher-3": {
+        "id": "weapon-torpedo-launcher-3",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "weapon-torpedo-launcher-2",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "thruster-rect-2": {
+        "id": "thruster-rect-2",
+        "extra_ids": [],
+        "rarity": "Rare",
+        "cost_factor": 1.0,
+        "parent": "thruster-square-1",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy-generator-triangle-0": {
+        "id": "energy-generator-triangle-0",
+        "extra_ids": [],
+        "rarity": "Common",
+        "cost_factor": 0.0,
+        "parent": "energy-battery-triangle-0",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "energy_generator_huge": {
+        "id": "energy_generator_huge",
+        "extra_ids": [],
+        "rarity": "Epic",
+        "cost_factor": 1.0,
+        "parent": "energy-power-unit-rect",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          0.0,
+          -150.0
+        ]
+      },
+      "xorberax-chaff-flare-defense-1": {
+        "id": "xorberax-chaff-flare-defense-1",
+        "extra_ids": [],
+        "rarity": "Uncommon",
+        "cost_factor": 0.5,
+        "parent": "core-1-drone",
+        "single_choice": false,
+        "unlocked": false,
+        "relative_position": [
+          300.0,
+          300.0
+        ]
+      }
+    }
+  },
+  "crew": {
+    "roles": [
+      {
+        "id": "66d705fd6b29453abeba91aeeefb5059",
+        "icon": "pilot",
+        "filter": "Thrusters",
+        "effect": {
+          "weapon_range": null,
+          "weapon_fire_rate": null,
+          "weapon_turret_rotation_speed": null,
+          "weapon_velocity": null,
+          "weapon_damage": null,
+          "weapon_spin_up_time": null,
+          "thruster_power": {
+            "min": 1.0,
+            "max": 2.0
+          },
+          "thruster_responsiveness": null,
+          "thruster_booster_power": null,
+          "thruster_booster_efficiency": null,
+          "shield_strength": null,
+          "shield_downtime": null,
+          "shield_recharge_energy": null,
+          "shield_upkeep_energy": null,
+          "generator_output": null,
+          "battery_capacity": null,
+          "health": null,
+          "explosiveness": null,
+          "metal_cost": null,
+          "exotics_cost": null,
+          "antimatter_cost": null
+        }
+      },
+      {
+        "id": "715ba9bd04304488965c9516cad538c4",
+        "icon": "armorer",
+        "filter": "HeavyArmor",
+        "effect": {
+          "weapon_range": null,
+          "weapon_fire_rate": null,
+          "weapon_turret_rotation_speed": null,
+          "weapon_velocity": null,
+          "weapon_damage": null,
+          "weapon_spin_up_time": null,
+          "thruster_power": null,
+          "thruster_responsiveness": null,
+          "thruster_booster_power": null,
+          "thruster_booster_efficiency": null,
+          "shield_strength": null,
+          "shield_downtime": null,
+          "shield_recharge_energy": null,
+          "shield_upkeep_energy": null,
+          "generator_output": null,
+          "battery_capacity": null,
+          "health": {
+            "min": 1.0,
+            "max": 2.0
+          },
+          "explosiveness": null,
+          "metal_cost": null,
+          "exotics_cost": null,
+          "antimatter_cost": null
+        }
+      },
+      {
+        "id": "882b7add80bb451ab609690644055ddb",
+        "icon": "weapons",
+        "filter": "WeaponsProjectile",
+        "effect": {
+          "weapon_range": {
+            "min": 1.0,
+            "max": 1.5
+          },
+          "weapon_fire_rate": {
+            "min": 1.0,
+            "max": 1.5
+          },
+          "weapon_turret_rotation_speed": null,
+          "weapon_velocity": null,
+          "weapon_damage": null,
+          "weapon_spin_up_time": null,
+          "thruster_power": null,
+          "thruster_responsiveness": null,
+          "thruster_booster_power": null,
+          "thruster_booster_efficiency": null,
+          "shield_strength": null,
+          "shield_downtime": null,
+          "shield_recharge_energy": null,
+          "shield_upkeep_energy": null,
+          "generator_output": null,
+          "battery_capacity": null,
+          "health": null,
+          "explosiveness": null,
+          "metal_cost": null,
+          "exotics_cost": null,
+          "antimatter_cost": null
+        }
+      },
+      {
+        "id": "92655bb59a4546cfafbd938aa3fdca96",
+        "icon": "weapons",
+        "filter": "WeaponsPoweredUnguided",
+        "effect": {
+          "weapon_range": null,
+          "weapon_fire_rate": null,
+          "weapon_turret_rotation_speed": null,
+          "weapon_velocity": {
+            "min": 1.0,
+            "max": 1.5
+          },
+          "weapon_damage": {
+            "min": 1.0,
+            "max": 1.5
+          },
+          "weapon_spin_up_time": null,
+          "thruster_power": null,
+          "thruster_responsiveness": null,
+          "thruster_booster_power": null,
+          "thruster_booster_efficiency": null,
+          "shield_strength": null,
+          "shield_downtime": null,
+          "shield_recharge_energy": null,
+          "shield_upkeep_energy": null,
+          "generator_output": null,
+          "battery_capacity": null,
+          "health": null,
+          "explosiveness": null,
+          "metal_cost": null,
+          "exotics_cost": null,
+          "antimatter_cost": null
+        }
+      },
+      {
+        "id": "1f149f9ad61645c7b232bbf3866fd160",
+        "icon": "logistics",
+        "filter": "Batteries",
+        "effect": {
+          "weapon_range": null,
+          "weapon_fire_rate": null,
+          "weapon_turret_rotation_speed": null,
+          "weapon_velocity": null,
+          "weapon_damage": null,
+          "weapon_spin_up_time": null,
+          "thruster_power": null,
+          "thruster_responsiveness": null,
+          "thruster_booster_power": null,
+          "thruster_booster_efficiency": null,
+          "shield_strength": null,
+          "shield_downtime": null,
+          "shield_recharge_energy": null,
+          "shield_upkeep_energy": null,
+          "generator_output": null,
+          "battery_capacity": {
+            "min": 1.0,
+            "max": 5.0
+          },
+          "health": null,
+          "explosiveness": null,
+          "metal_cost": null,
+          "exotics_cost": null,
+          "antimatter_cost": null
+        }
+      }
+    ]
+  },
+  "conflict_with": [
+    "01b8ff1af65847d1b74a8af5a12d130b",
+    "02f8cc6315a84957b8e65c15d04190cd",
+    "1465f99fba0741859d310d32929d047c",
+    "16a398d275934864bfb7d4f5dd0c4653",
+    "176ac18b3af54273859dfeefed41a7b7",
+    "1a4dd21dd8cf4068b01a233867facda0",
+    "35b8090757c94bcb810829d965e6de49",
+    "483f5aa96b4d4bc68682afc4aac4fc85",
+    "579d08042d5944b7bf0d238be0852a54",
+    "6bd7b472e32941ad804a8dd2a572a9cb",
+    "a49834d2e750493d932f18a00575eb0e",
+    "acdea5badd4f4bab95c32d2c28b0a605",
+    "b1dc9574c52e4d7c88b0de3486ceb782",
+    "b4928d4d6f1d407cb997113e262c2f3f",
+    "d3657d85caf244b49a7ebdf04f281194",
+    "d77b2a2fcea14df9b8bcab20a676a482",
+    "d96b25cc36144343bd8d55e7a759e419"
+  ]
+}
