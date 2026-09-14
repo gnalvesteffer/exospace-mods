@@ -95,6 +95,30 @@ visually disconnected even when the connector coordinates are correct. For custo
 sprites, author the mask channels deliberately; a normal full-color PNG may appear
 black or excessively faction-tinted in-game.
 
+## Faction Research Unlock Trees
+
+`"unlockable": true` only marks a part as eligible for unlocking. Research-tree
+visibility is controlled separately in each `.faction` file under
+`unlock_tree.nodes`. A node uses this structure:
+
+```json
+{
+  "id": "my-custom-part",
+  "extra_ids": [],
+  "rarity": "Common",
+  "cost_factor": 1.0,
+  "parent": "existing-part-id",
+  "single_choice": false,
+  "unlocked": false,
+  "relative_position": [150.0, 0.0]
+}
+```
+
+To make a custom part researchable, add a node keyed by its part ID to the
+appropriate faction's `unlock_tree.nodes`. Research trees are faction-specific;
+adding a part definition alone does not register it in the research UI. Use an
+existing part as `parent` and choose a non-overlapping `relative_position`.
+
 ## Override Built-in Weapons
 
 To change an existing weapon, copy its complete definition from the matching object in `game_data/parts.json` into the mod's `parts.json`. The official guide supports overriding built-in parts this way.
